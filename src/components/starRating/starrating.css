@@ -1,0 +1,7 @@
+.star{
+    color: lightgray;
+    transition: color 0.3s ease;
+}
+.active{
+    color: orange;
+}

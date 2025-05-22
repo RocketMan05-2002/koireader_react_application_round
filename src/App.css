@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.homePage{
+    display: flex;
+}
+.feed{
+    flex: 6;
+    margin: 10px 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media screen and (max-width:500px){
+    .products{
+        flex-wrap: wrap;
+    }
+}
